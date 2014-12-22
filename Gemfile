@@ -35,7 +35,7 @@ gem 'net-ssh', '~>2.7.0'
 gem 'rvm-capistrano'
 gem "default_value_for", "~> 3.0.0"
 gem 'cancan'
-
+gem 'carrierwave'
 gem 'carrierwave-qiniu'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

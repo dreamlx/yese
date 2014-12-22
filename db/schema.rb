@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141222062141) do
+ActiveRecord::Schema.define(version: 20141222075904) do
 
   create_table "access_counts", force: true do |t|
     t.integer  "venue_id"
@@ -93,6 +93,7 @@ ActiveRecord::Schema.define(version: 20141222062141) do
     t.decimal  "price"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "avatar"
   end
 
 end

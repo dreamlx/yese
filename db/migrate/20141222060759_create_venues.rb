@@ -4,7 +4,7 @@ class CreateVenues < ActiveRecord::Migration
       t.string :title
       t.string :address
       t.string :location
-      t.text :descripition
+      t.text :description
       t.boolean :parking
       t.boolean :eating
       t.boolean :visa
