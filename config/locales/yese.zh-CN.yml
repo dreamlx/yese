@@ -1,0 +1,24 @@
+zh-CN:
+
+  views:
+
+  activerecord:
+    models:
+      venue: 店家
+      gallery: 相册
+    attributes:
+      venue: 
+        title: 标题
+        address: 地址
+        location: 地区
+        description: 简介
+        parking: 车位 
+        eating: 餐饮
+        visa: 信用卡
+        other: 其他
+        tel: 联系电话
+        business_hours: 营业时间
+        price: 人均价格
+        avatar: 店家主图
+      gallery:
+        image: 照片
